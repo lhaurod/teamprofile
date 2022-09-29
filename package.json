@@ -1,0 +1,23 @@
+{
+    "name": "teamprofile",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+      "lib": "lib",
+      "test": "tests"
+    },
+    "scripts": {
+      "test": "jest",
+      "testCoverage": "jest --coverage"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "inquirer": "^8.1.2"
+    },
+    "devDependencies": {
+      "jest": "^27.0.6"
+    }
+  }
