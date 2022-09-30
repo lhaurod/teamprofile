@@ -17,15 +17,15 @@ describe("Manager", () => {
     })
 
     test("Should create an object with the fourth parameter set to the officeNumber property", () => {
-      expect(test1.officeNumber).toEqual(`A111`)
+      expect(test1.officeNumber).toEqual(`A4`)
     })
   })
   
   describe(`Methods`, () => {
-    let test2 = new Manager(`Billy Bob`, 222, `Test2@gmail.com`, `B222`)
+    let test2 = new Manager(`ALex Bob`, 222, `Test2@gmail.com`, `B222`)
 
     test("calling getName should return name property", () => {
-      expect(test2.getName()).toBe(`Billy Bob`)
+      expect(test2.getName()).toBe(`Alex Bob`)
     })
 
     test("calling getId should return id property", () => {

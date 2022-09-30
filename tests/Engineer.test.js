@@ -22,10 +22,10 @@ describe("Engineer", () => {
   })
   
   describe(`Methods`, () => {
-    let test2 = new Engineer(`Billy Bob`, 222, `Test2@gmail.com`, `BillyBobCoding`)
+    let test2 = new Engineer(`Alex Bob`, 222, `Test2@gmail.com`, `AlexBobCoding`)
 
     test("calling getName() should return name property", () => {
-      expect(test2.getName()).toBe(`Billy Bob`)
+      expect(test2.getName()).toBe(`Alex Bob`)
     })
 
     test("calling getId() should return id property", () => {
@@ -37,7 +37,7 @@ describe("Engineer", () => {
     })
 
     test("calling getGithub() should return github property", () => {
-      expect(test2.getGithub()).toBe(`BillyBobCoding`)
+      expect(test2.getGithub()).toBe(`AlexBobCoding`)
     })
 
     test("calling getRole should return Engineer.", () => {

@@ -18,10 +18,10 @@ describe("Employee", () => {
   })
   
   describe(`Methods`, () => {
-    let test2 = new Employee(`Billy Bob`, 222, `Test2@gmail.com`)
+    let test2 = new Employee(`Alex Bob`, 222, `Test2@gmail.com`)
 
     test("calling getName should return name property", () => {
-      expect(test2.getName()).toBe(`Billy Bob`)
+      expect(test2.getName()).toBe(`Alex Bob`)
     })
 
     test("calling getId should return id property", () => {

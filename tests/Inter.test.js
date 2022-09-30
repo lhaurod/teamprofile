@@ -17,7 +17,7 @@ describe("Intern", () => {
     })
 
     test("Should create an object with the fourth parameter set to the school property", () => {
-      expect(test1.school).toEqual(`Northwestern University`)
+      expect(test1.school).toEqual(`University of Miami`)
     })
   })
   
@@ -25,7 +25,7 @@ describe("Intern", () => {
     let test2 = new Intern(`Billy Bob`, 222, `Test2@gmail.com`, `University of Chicago`)
 
     test("calling getName should return name property", () => {
-      expect(test2.getName()).toBe(`Billy Bob`)
+      expect(test2.getName()).toBe(`Alex Bob`)
     })
 
     test("calling getId should return id property", () => {
