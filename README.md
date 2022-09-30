@@ -16,6 +16,7 @@ The app purpose is to display my team's basic information in order to have a qui
 *Jest
 *Node.js
 ## Website
+https://lhaurod.github.io/teamprofile/
 
 ## Screenshots
 <img width="1310" alt="Screen Shot 2022-09-29 at 8 08 30 PM" src="https://user-images.githubusercontent.com/106787987/193163218-013d08ae-3378-4378-ba74-a892ccad2845.png">
